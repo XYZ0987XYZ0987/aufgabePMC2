@@ -14,7 +14,7 @@ namespace ConsoleApplication3
         public string LoadWordList()
         {
             
-            return "Wörter: " + String.Join(",", wordList);
+            return "Wörter : " + String.Join(",", wordList);
         }
 
         public string randomWord(int random)
