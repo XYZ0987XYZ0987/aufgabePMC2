@@ -9,7 +9,7 @@ namespace ConsoleApplication3
     class Comparator
     {
         //vorlagewort
-        char[] v_wort = new char[0];
+        char[] v_wort = new char[1];
 
         char buchstabe;
 
