@@ -8,9 +8,10 @@ namespace ConsoleApplication3
 {
     class Random
     {
-        public int random()
+        public string random(string[] arr)
         {
-            return 1;
+            System.Random random = new System.Random();
+            return arr[random.Next(0, arr.Length)];
         }
     }
 }
